@@ -23,9 +23,9 @@ function calculate(event) {
       }
     }
     else {
-      temp = flames.length - 1;
+      temp = ans;
     }
-    flames = flames.slice(0, temp - 1)+flames.slice(temp);
+    flames = flames.slice(temp)+flames.slice(0, temp - 1);
   }
   switch (flames) {
     case "F": flames = "Friends";
