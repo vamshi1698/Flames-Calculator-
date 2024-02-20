@@ -2,6 +2,8 @@ function calculate(event) {
   event.preventDefault();
   boy = document.getElementById("i1").value;
   girl = document.getElementById("i2").value;
+  boy=boy.toUpperCase();
+  girl=girl.toUpperCase();
   flames = "FLAMES";
   for (i = 0; i < boy.length; i++) {
     for (j = 0; j < girl.length; j++) {
