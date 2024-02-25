@@ -4,6 +4,7 @@ function calculate(event) {
   girl = document.getElementById("i2").value;
   boy=boy.toUpperCase();
   girl=girl.toUpperCase();
+  if(boy!==""&&girl!==""){
   flames = "FLAMES";
   for (i = 0; i < boy.length; i++) {
     for (j = 0; j < girl.length; j++) {
@@ -45,5 +46,5 @@ function calculate(event) {
 
   }
   document.getElementById("result").innerHTML = flames;
-
+          }
 }
