@@ -10,16 +10,17 @@
 
 <body>
   <h1>FLAMES CALCULATOR</h1>
+ <div class="container">
   <form>
-    <label for="i1">enter a boy name:</label>
-    <input type=text id="i1" placeholder="boy name" required><hr>
-    <label for="i2">enter a girl name:</label>
-    <input type=text id="i2"placeholder="girl name" required><hr>
-    <input type=submit value="Check" onclick="calculate(event)">
-    <input type=reset id="reset">
-  
+    <label for="i1">Enter a Boy Name:</label>
+    <input type=text id="i1" placeholder="boy name" required><br>
+    <label for="i2">Enter a Girl Name:</label>
+    <input type=text id="i2"placeholder="girl name" required><br>
+    <button type=submit onclick="calculate(event)">CHECK</button>
+    <button type=reset id="reset">RESET</button>
   </form>
   <p id="result"></p>
+ </div>
   <script src="script.js"></script>
 </body>
 
