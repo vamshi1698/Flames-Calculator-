@@ -48,3 +48,7 @@ function calculate(event) {
   document.getElementById("result").innerHTML = flames;
           }
 }
+function clear_data(){
+  let result = document.getElementById('result');
+  result.innerText = "";
+}
